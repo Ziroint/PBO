@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.BoxBlur?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.progressuas.Exitlogin_Controller">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="607.0" layoutX="-1.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/exitlogin.png" />
+         </image>
+         <effect>
+            <BoxBlur />
+         </effect>
+      </ImageView>
+      <Pane layoutX="107.0" layoutY="121.0" prefHeight="157.0" prefWidth="386.0" style="-fx-background-color: #264653;">
+         <children>
+            <Label layoutX="14.0" layoutY="14.0" text="Apakah anda ingin keluar" textFill="WHITE">
+               <font>
+                  <Font name="Serif Bold" size="22.0" />
+               </font>
+            </Label>
+            <Label layoutX="13.0" layoutY="39.0" text="dari aplikasi?" textFill="WHITE">
+               <font>
+                  <Font name="Serif Bold" size="22.0" />
+               </font>
+            </Label>
+            <Button fx:id="okeleave" layoutX="38.0" layoutY="91.0" mnemonicParsing="false" onAction="#keluaraplikasi" prefHeight="31.0" prefWidth="66.0" style="-fx-background-color: #D9D9D9;" text="Ok" />
+            <Button fx:id="cancel" layoutX="251.0" layoutY="91.0" mnemonicParsing="false" onAction="#cancelkeluar" prefHeight="31.0" prefWidth="66.0" style="-fx-background-color: #D9D9D9;" text="Cancel" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

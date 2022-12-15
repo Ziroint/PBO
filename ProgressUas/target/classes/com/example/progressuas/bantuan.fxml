@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #264653;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.progressuas.Bantuan_Controller">
+   <children>
+      <Label layoutX="256.0" layoutY="14.0" text="Bantuan" textFill="WHITE">
+         <font>
+            <Font name="Serif Bold" size="24.0" />
+         </font>
+      </Label>
+      <Separator layoutX="200.0" layoutY="40.0" prefWidth="200.0" style="-fx-background-color: #298C82;" />
+      <Label layoutX="44.0" layoutY="74.0" prefHeight="17.0" prefWidth="223.0" text="Cara memasukkan nama barang" textFill="WHITE">
+         <font>
+            <Font name="Serif Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="56.0" layoutY="100.0" prefHeight="17.0" prefWidth="337.0" text="1. Masukkan kode, jenis, nama, harga, dan stock barang" textFill="WHITE">
+         <font>
+            <Font name="Serif Regular" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="56.0" layoutY="117.0" prefHeight="17.0" prefWidth="347.0" text="2. Kemudian klik save untuk menyimpan inputan tersebut" textFill="WHITE">
+         <font>
+            <Font name="Serif Regular" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="57.0" layoutY="134.0" prefHeight="17.0" prefWidth="363.0" text="3. Setelah itu, klik view untuk melihat inputan yang telah diberikan" textFill="WHITE">
+         <font>
+            <Font name="Serif Regular" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="44.0" layoutY="169.0" prefHeight="17.0" prefWidth="223.0" text="Cara memodifikasi nama barang" textFill="WHITE">
+         <font>
+            <Font name="Serif Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="57.0" layoutY="197.0" prefHeight="17.0" prefWidth="311.0" text="1. Pilih salah satu nama barang yang ingin di edit" textFill="WHITE">
+         <font>
+            <Font name="Serif Regular" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="57.0" layoutY="214.0" prefHeight="17.0" prefWidth="265.0" text="2. Kemudian ubah inputan yang diinginkan" textFill="WHITE">
+         <font>
+            <Font name="Serif Regular" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="57.0" layoutY="231.0" prefHeight="17.0" prefWidth="411.0" text="3. Setelah itu, klik update dan view untuk melihat yang telah di update" textFill="WHITE">
+         <font>
+            <Font name="Serif Regular" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="44.0" layoutY="265.0" prefHeight="17.0" prefWidth="265.0" text="Cara menghapus nama barang" textFill="WHITE">
+         <font>
+            <Font name="Serif Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="57.0" layoutY="294.0" prefHeight="17.0" prefWidth="394.0" text="1. Pilih salah satu nama barang yang ingin di delete" textFill="WHITE">
+         <font>
+            <Font name="Serif Regular" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="57.0" layoutY="311.0" prefHeight="17.0" prefWidth="363.0" text="2. Kemudian klik delete untuk menghapus nama barang" textFill="WHITE">
+         <font>
+            <Font name="Serif Regular" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="57.0" layoutY="328.0" prefHeight="17.0" prefWidth="347.0" text="3. Setelah itu klik view untuk melihat stock barang" textFill="WHITE">
+         <font>
+            <Font name="Serif Regular" size="13.0" />
+         </font>
+      </Label>
+      <Button fx:id="back" layoutX="28.0" layoutY="14.0" mnemonicParsing="false" onAction="#kembalikemenu" prefHeight="17.0" prefWidth="43.0" style="-fx-background-color: #D9D9D9;" text="Back" />
+   </children>
+</AnchorPane>
